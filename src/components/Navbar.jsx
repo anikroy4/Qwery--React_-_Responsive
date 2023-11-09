@@ -15,11 +15,11 @@ const Navbar = () => {
 
                 <div className="menu">
                     <List className="gap-x-[60px]">
-                        <ListItem liclassName="" ListInnerItem="Home"/>
-                        <ListItem liclassName="" ListInnerItem="About us"/>
-                        <ListItem liclassName="" ListInnerItem="Information"/>
-                        <ListItem liclassName="" ListInnerItem="Culture"/>
-                        <ListItem liclassName="" ListInnerItem="Contact Us"/>
+                        <ListItem className="text-black font-Sans text-lg font-semibold " liclassName="" ListInnerItem="Home"/>
+                        <ListItem className="text-white font-Sans text-lg font-semibold hover:text-black" liclassName="" ListInnerItem="About us"/>
+                        <ListItem className="text-white font-Sans text-lg font-semibold hover:text-black" liclassName="" ListInnerItem="Information"/>
+                        <ListItem className="text-white font-Sans text-lg font-semibold hover:text-black" liclassName="" ListInnerItem="Contact Us"/>
+                        <ListItem className="text-white font-Sans text-lg font-semibold hover:text-black" liclassName="" ListInnerItem="Culture"/>
                     </List>
                 </div>
             </Container>
@@ -30,8 +30,8 @@ const Navbar = () => {
         <section className='bg-[url(/banner.jpg)] bg-cover bg-no-repeat bg-center pt-[462px] pb-[462px] pl-[300px]'>
 
         <Container>
-            <h4>explore the Nature Beauty</h4>
-            <h2>Discover <span className='hdesign'>Wonderful Indonesia</span></h2> 
+            <h4 className='text-lg text-[#FFC178] '>explore the Nature Beauty</h4>
+            <h2 className='font-normal text-[88px] w-[817px] text-[#fff]'><span className='font-bold text-8xl'>Discover</span> Wonderful Indonesia</h2>   
         </Container>
         </section>
     </>
