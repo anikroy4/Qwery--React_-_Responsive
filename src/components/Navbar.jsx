@@ -32,7 +32,7 @@ const Navbar = () => {
 
         <Container>
             <h4 className='text-lg text-[#FFC178] '>explore the Nature Beauty</h4>
-            <h2 className='font-normal text-[88px] w-[817px] text-[#fff]'><span className='font-bold text-8xl'>Discover</span> Wonderful Indonesia</h2>   
+            <h2 className='font-normal text-[88px] max-w-[817px] text-[#fff]'><span className='font-bold text-8xl'>Discover</span> Wonderful Indonesia</h2>   
         </Container>
         </section>
     </>
