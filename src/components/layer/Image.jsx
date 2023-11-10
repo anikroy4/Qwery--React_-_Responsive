@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Image = ({src, alt}) => {
+const Image = ({src, alt,className}) => {
   return (
     <>
         <Link>
         <picture>
-            <img src={src} alt={alt} />
+            <img className={`${className}`}src={src} alt={alt} />
         </picture>
         </Link>
     </>
