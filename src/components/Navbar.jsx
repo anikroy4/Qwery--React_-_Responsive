@@ -20,6 +20,7 @@ const Navbar = () => {
                         <ListItem className="text-white font-Sans text-lg font-semibold hover:text-black" liclassName="" ListInnerItem="Information"/>
                         <ListItem className="text-white font-Sans text-lg font-semibold hover:text-black" liclassName="" ListInnerItem="Contact Us"/>
                         <ListItem className="text-white font-Sans text-lg font-semibold hover:text-black" liclassName="" ListInnerItem="Culture"/>
+                        <ListItem className="text-white font-Sans text-lg font-semibold hover:text-black" liclassName="" ListInnerItem="Contact Us"/>
                     </List>
                 </div>
             </Container>

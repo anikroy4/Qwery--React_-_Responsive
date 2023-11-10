@@ -7,7 +7,7 @@ const EastNusa = () => {
     <>
         <section className="bg-black">
             <Container className="flex pt-80  pb-[357px]" >
-                <div className="left w-1/2 items-center">
+                <div className="left w-1/2  bg-cover">
                     <Image src="/About.jpg"alt="About.jpg"/>
                 </div>
                 <div className="right w-1/2 pt-[45px] pb-[105px] pl-[23px] text-white font-Sans">

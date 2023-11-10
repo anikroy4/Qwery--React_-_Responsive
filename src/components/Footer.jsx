@@ -40,10 +40,10 @@ const Footer = () => {
                 </div>
                 <div className='bottom flex gap-[84px] justify-end pt-16 '>
                    <div>
-                    <h3 className='font-bold'>
+                    <h3 className='font-bold text-[#FFD1A0] text-xl tracking-space  pb-3'>
                         Services
                     </h3>
-                    <List className="flex-col">
+                    <List className="flex-col  text-[19px] font-normal capitalize tracking-tighter gap-y-[10px]">
                         <ListItem ListInnerItem="Email Marketing"/>
                         <ListItem ListInnerItem="Campaigns"/>
                         <ListItem ListInnerItem="Branding"/>
@@ -51,10 +51,10 @@ const Footer = () => {
                     </List>
                    </div>
                    <div>
-                    <h3>
+                    <h3 className='font-bold text-[#FFD1A0] text-xl tracking-space  pb-3'>
                         About
                     </h3>
-                    <List className="flex-col">
+                    <List className="flex-col  text-[19px] font-normal capitalize tracking-tighter gap-y-[10px]">
                         <ListItem ListInnerItem="Our Story"/>
                         <ListItem ListInnerItem="Benefits"/>
                         <ListItem ListInnerItem="Term"/>
@@ -62,19 +62,19 @@ const Footer = () => {
                     </List>
                    </div>
                    <div>
-                    <h3>
+                        <h3 className='font-bold text-[#FFD1A0] text-xl tracking-space  pb-3'>
                         Help
-                    </h3>
-                    <List className="flex-col">
+                        </h3>
+                        <List className="flex-col  text-[19px] font-normal capitalize tracking-tighter gap-y-[10px]">
                         <ListItem ListInnerItem="FAQ’S"/>
                         <ListItem ListInnerItem="Contact us"/>
-                    </List>
+                        </List>
                    </div>
 
                 </div>
             </div>
         </Container>
-
+       <h3 className='text-white font-Sans font-semibold text-lg leading-8 opacity-50 text-center pb-6'>Copyright 2023 QWERy</h3>
     </footer>
     </>
   )
